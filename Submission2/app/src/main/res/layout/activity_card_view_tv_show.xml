@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview_tvShow"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="7dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_layout_white">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/img_tvShow"
+            android:layout_marginBottom="4dp"
+            android:scaleType="fitXY"
+            tools:src="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title_tvShow"
+            android:fontFamily="@font/firasansregular"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/img_tvShow"
+            android:layout_toRightOf="@+id/img_tvShow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackPrimary"
+            tools:text="@string/title_tvShow"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EDEDED"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/tv_title_tvShow"
+            android:id="@+id/viewPembatas"
+            android:layout_toEndOf="@+id/img_tvShow"
+            android:layout_toRightOf="@+id/img_tvShow">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_showtimes"
+            android:textSize="13sp"
+            android:layout_below="@+id/viewPembatas"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_tvShow"
+            android:layout_toRightOf="@id/img_tvShow"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/showtimes"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_broadcaster_network"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_showtimes"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_tvShow"
+            android:layout_toRightOf="@id/img_tvShow"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/broadcaster_network"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_genre_tvShow"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_broadcaster_network"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_tvShow"
+            android:layout_toRightOf="@id/img_tvShow"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/genre_tvShow"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

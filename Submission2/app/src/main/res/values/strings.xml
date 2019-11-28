@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Entertainment</string>
+    <string name="tab_text_movie">Movie</string>
+    <string name="tab_text_tv_show">TV Show</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="appversion">App Version 0.1</string>
+    <string name="setting">Settings</string>
+    <string name="sinopsis">Sinopsis</string>
+    <string name="showtimes">Jadwal Tayang</string>
+    <string name="broadcaster_network">Jaringan Penyiar</string>
+    <string name="runtime">Durasi</string>
+    <string name="daterelase">Tanggal Rilis</string>
+    <string name="title_movie">Title Movie</string>
+    <string name="genre_movie">Genre</string>
+    <string name="daterelease_movie">Date Release</string>
+    <string name="title_tvShow">Title TV SHOW</string>
+    <string name="genre_tvShow">Genre</string>
+
+    <!--  Data Movie  -->
+
+    <string-array name="data_title_movie">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+        <item>Deadpool 2</item>
+        <item>Spider-Man: Far from Home</item>
+        <item>Frozen II</item>
+    </string-array>
+
+    <string-array name="data_synopsis_movie">
+        <item>"Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons."</item>
+        <item>"Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne."</item>
+        <item>"As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain."</item>
+        <item>"Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety."</item>
+        <item>"Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess."</item>
+        <item>"On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug."</item>
+        <item>"Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life."</item>
+        <item>"Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life."</item>
+        <item>"Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent."</item>
+        <item>"Elsa, Anna, Kristoff and Olaf are going far in the forest to know the truth about an ancient mystery of their kingdom."</item>
+    </string-array>
+
+    <string-array name="date_release_movie">
+        <item>3 October 2018</item>
+        <item>21 Desember 2018</item>
+        <item>23 April 2018</item>
+        <item>12 November 2018</item>
+        <item>30 October 2018</item>
+        <item>21 December 2018</item>
+        <item>14 November 2018</item>
+        <item>10 May 2018</item>
+        <item>26 June 2019</item>
+        <item>7 November 2019</item>
+    </string-array>
+
+    <string-array name="data_runtime_movie">
+        <item>2h 16m</item>
+        <item>2h 24m</item>
+        <item>2h 29m</item>
+        <item>2h 4m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 10m</item>
+        <item>2h 1m</item>
+        <item>2h 9m</item>
+        <item>1h 44m</item>
+    </string-array>
+
+    <string-array name="data_genre_movie">
+        <item>Drama, Music, Romance</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Music</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Drama</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Adventure, Animation, Comedy, Music, Family, Fantasy</item>
+    </string-array>
+
+    <array name="data_photo_movie">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/deadpool2</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/frozenii</item>
+    </array>
+
+    <!--  Data TV SHOW  -->
+
+    <string-array name="data_title_tvShow">
+        <item>Ini Talk Show</item>
+        <item>Tonight Show</item>
+        <item>86</item>
+        <item>Tukang Ojek Pengkolan</item>
+        <item>Bocah Petualang</item>
+        <item>Laptop Si Unyil</item>
+        <item>Hitam Putih</item>
+        <item>On The Spot</item>
+        <item>Mata Najwa</item>
+        <item>Spongebob Squarepants The Movie</item>
+    </string-array>
+
+    <string-array name="data_synopsis_tvShow">
+        <item>"Ini Talk Show adalah program talk show yang dikemas dengan suasana santai, membahas isu-isu hangat yang ada di masyarakat dengan cara sederhana. Di program ini juga akan memperlihatkan suasana rumah dan karakter-karakter yang ada di rumah tersebut. Dengan peran Sule sebagai Host, Andre Taulany sebagai Consultant-Host, didukung oleh Yurike sebagai Mama Sule, Sas Widjanarko sebagai Om Sule, Maya Septha sebagai Asisten Rumah Tangga, dan Haji Bolot sebagai Pak RT."</item>
+        <item>"Talk show malam yang akan memberikan informasi dan hiburan, Bersama Vincent, Desta Dan Hesty Purwadinata serta bintang tamu dari berbagai kalangan. Menemani istirahat malam, Tonight Show sarat akan kejutan yang sayang untuk dilewatkan."</item>
+        <item>"86 merupakan tontonan yang segar dan dapat memacu adrenaline yang ditayangkan di NET. TV setiap hari pukul 22:00 WIB. Tidak hanya kita dapat mengikuti aksi polisi Indonesia dalam penggerebekan, tetapi kita juga diajak untuk menyaksikan kejadian yang sesungguhnya terjadi di lapangan serta melihat sedikit sisi lain dari kehidupan pribadi polisi sebagai manusia biasa dan kedekatan mereka dengan keluarganya. 86 memperlihatkan pekerjaan polisi Indonesia mulai dari kegiatan yang ringan, seperti mendisiplinkan pengguna lalu lintas, sampai kasus berat kepolisian."</item>
+        <item>"Di sebuah kampung di daerah Rawa Bebek yang berada di belakang gedung-gedung perkantoran Jakarta, tinggal pasangan suami istri bernama Rojak (Ojak) dan Tati. Untuk mencari nafkah, Ojak warga asli Jakarta bekerja sebagai tukang ojek yang berpangkalan di ujung jalan masuk ke kampung bersama dua rekannya, Purnomo (Pur) yang berasal dari Semarang, dan Sutisna (Tisna) yang aslinya dari Sukabumi.\n Sebenarnya, pernikahan Ojak dan Tati tidak direstui oleh Maesaroh, Emaknya Tati. Karena sebelumnya, dulu almarhum babenya Tati pernah menjodohkan Tati dengan calon suami yang lebih mapan, jauh sekali dibanding Ojak yang hanya bekerja sebagai tukang ojek. Namun karena cinta dan kasih sayangnya Tati terhadap Ojak, Tati memilih menikahi Ojak, meski dengan risiko hidup mereka pas-pasan. Meskipun Ojak punya ijazah D3, tetapi sampai sekarang belum dapat pekerjaan yang layak.\nHal inilah yang menjadi perseteruan bagai anjing dan kucing antara Emak dan menantunya, Ojak. Emak, meski tidak frontal, berusaha secara terus-menerus menekan Ojak agar menafkahi istrinya dengan layak, bisa membeli rumah sendiri dan tak terus-terusan ngontrak rumah seperti sekarang. Ojak yang awalnya hanya menebalkan kuping bila Emak mengomelinya, lambat-laun menganggap Emak sebagai kerikil dalam kebahagiaan keluarganya, meski Ojak tak pernah berani mengutarakan kekesalannya secara langsung di depan Emak. Keadaan ini membuat posisi Tati serba salah antara menuruti kata Emak dan menghormati kata-kata suaminya."</item>
+        <item>"Si Bolang meyoroti kegiatan sehari-hari anak-anak, mulai dari bermain, membantu orang tua, sampai membuat kerajinan tradisional dari berbagai daerah di seluruh penjuru nusantara. Setiap episode Bolang menampilkan keunikan budaya dari berbagai daerah di Indonesia menjadikan program ini memiliki unsur kelokalan yang sangat tinggi. Informasi yang disajikan dari sudut pandang dunia anak menjadi nilai keunikan tersendiri bagi program Si Bolang."</item>
+        <item>"Menampilkan Unyil &amp; kawan-kawan sebagai maskot, program ini mengupas proses produksi beragam benda-benda baik yang sering ditemui sehari-hari maupun benda-benda unik tidak hanya dari dalam negeri namun juga dari mancanegara. Liputan yang hadir baik dari pabrik industri besar maupun home industry disajikan dengan detil dan fokus pada proses, menjadikan program ini sangat informatif karena pemirsa dapat menyaksikan langsung bagaimana proses pembuatan suatu produk.
+
+Unyil &amp; kawan-kawan yang menjadi maskot program ini hadir dalam gimik-gimik yang lucu, menambahkan nilai tersendiri pada Laptop Si Unyil yang menjadikannya tidak hanya informatif, namun juga sangat menghibur. Laptop Si unyil tidak hanya memiliki basis penonton anak-anak, namun juga luas hingga ke area adult-grand. Tayang sejak tahun 2007, Laptop Si Unyil merupakan salah satu program unggulan TRANS7."</item>
+        <item>"Program Talkshow yang menjadi flagship / icon talkshow TRANS7 selama beberapa tahun terakhir. Brand image yang kuat dengan image yang positif menjadi selling value utama Hitam Putih. Tak hanya menyajikan informasi dari Bintang Tamu/Narasumber, Hitam Putih menjadi salah satu dari sedikit tayangan talkshow saat ini yang memiliki banyak value positif.
+
+Format program yang fleksibel membuat Hitam Putih mampu mengakomodir tema-tema bahasan yang luas. Tema-tema mendidik, informatif, inspiratif menjadi core competency Hitam Putih. Selain itu, tema-tema Showbiz, Current, Viral dan Unik juga menjadi kekuatan lain Hitam Putih. Fleksibilitas format ini yang tidak dimiliki talkshow lain hingga saat ini.
+
+Karakter Deddy Corbuzier sebagai host juga telah melekat dengan brand Hitam Putih. Sosok yang Smart, Logis dan Update terhadap informasi/isu-isu terkini juga menjadi selling point lain. Secara kepemirsaan, cakupan pemirsa yang mampu dijangkau Hitam Putih terbilang lebar. Pemirsa muda dan dewasa dari kategori male maupun female berkontribusi sama baiknya terhadap program."</item>
+        <item>"Sebuah program informasi yang dikenal sebagai pionir magazine yang menghadirkan kompilasi informasi tentang berbagai macam isu dan topik mulai dari fenomena, current issue, misteri, keajaiban dunia, hingga sains. Kini tidak hanya menghadirkan kompilasi jajaran berbagai informasi dengan tema tertentu namun juga hadir dengan bentuk lain seperti liputan dan penelusuran langsung. Hadir pula dengan look yang kekinian yang menjadikan informasi yang dihadirkan tidak hanya menambah pengetahuan namun juga engaging bagi pemirsa di rumah. Secara genre hadir sebagai satu-satunya program informasi di tengah kompetisi yang dipenuhi program drama, menjadikan On The Spot sebuah program yang ikonik terutama bagi pemirsa yang haus akan informasi"</item>
+        <item>"Program Talkshow yang dipandu oleh tokoh yang memiliki karakter cerdas, lugas dan yang berani memiliki karisma yang kuat di mata pemirsa. Gaya bertanya Najwa Shihab yang ditegaskan, menusuk dan kerap sedikit provokatif berpadu dengan perawatan-perawatan yang spesifik untuk mengakomodir karakter Bintang Tamu / Narasumber mampu menghadirkan acara yang menarik seiring bertambahnya penayangan program.
+
+Mata Najwa juga memiliki citra merek yang kuat sebagai salah satu program talkshow yang jadi referensi saat ada isu / fenomena nasional selain ILC. Istirahat Pasca yang dilakukan dalam 3 bulan terakhir, kemunculan kembali Najwa Shihab di layar kaca dikembalikan untuk dinantikan oleh pemirsa setianya.
+
+Kemampuan Mata Najwa menghadirkan narasumber yang merupakan sosok A1 dari tema-tema yang luas menjadi salah satu daya tarik utama program ini. Kehadiran Mata Najwa di TRANS7 diharapkan dapat mencapai rujukan dan referensi pengunjung jelang jelang Pilkada Serentak 2018 hingga Pilpres 2019, juga tentang isu-isu nasional yang terjadi sepanjang tahun.
+
+Tayang pada satu kali dalam sepekan di slot super primetime, program genre Mata Najwa memilih untuk menarik pemirsa laki-laki dengan rentang usia yang lebar (usia muda). Selain itu, tema bahasan yang diangkat juga bisa dilebarkan untuk mengakomodasi pemirsa wanita"</item>
+        <item>"Jauh di dasar Samudera Pasifik di tengah kota Bikini Bottom, hiduplah sebuah sponge laut kuning bernama Spongebob Squarepants. Spongebob tinggal dalam sebuah rumah mungil berbentuk nanas dengan binatang peliharaannya, Gary. Sehari-harinya, Spongebob bekerja sebagai pelayan di restoran cepat saji Krusty Krab bersama tetangganya Squidward (seekor gurita yang selalu cemberut). Dia juga memiliki sahabat sejati berbentuk star fish bernama Patrick. Rasanya nggak ada yang aneh dengan kehidupannya. Tapi jangan salah! Dimana ada Spongebob disitu ada kehebohan. Mau tau seperti apa hebohnya? Yuk nonton terus Spongebob Squarepants hanya di GTV!"</item>
+    </string-array>
+
+    <string-array name="data_showtimes">
+        <item>Senin - Jumat pukul 19.00 WIB</item>
+        <item>Senin - Jumat pukul 21.00 WIB</item>
+        <item>Setiap Hari Pukul 22.00 WIB</item>
+        <item>Setiap Hari Pukul 19.15 WIB</item>
+        <item>Senin - Jumat pukul 12.30 WIB.</item>
+        <item>Senin - Jumat pukul 12.00 WIB.</item>
+        <item>Senin – Jumat pukul 18.00 WIB.</item>
+        <item>Senin - Jumat pukul 19.00 WIB. &amp; Sabtu - Minggu pukul 19.30 WIB.</item>
+        <item>Rabu pukul 20.00 WIB</item>
+        <item>Setiap Hari Pukul 11.00 WIB.</item>
+    </string-array>
+
+    <string-array name="data_broadcaster_network_tvShow">
+        <item>Net.</item>
+        <item>Net.</item>
+        <item>Net.</item>
+        <item>RCTI</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Global TV</item>
+    </string-array>
+
+    <string-array name="data_genre_tvShow">
+        <item>Komedi, Gelar Wicara</item>
+        <item>Gelar Wicara</item>
+        <item>Acara Realitas</item>
+        <item>Komedi</item>
+        <item>Anak - Anak</item>
+        <item>Anak - Anak</item>
+        <item>Gelar Wicara</item>
+        <item>Dokumenter</item>
+        <item>Peristiwa Terkini</item>
+        <item>Anak - Anak</item>
+    </string-array>
+
+    <array name="data_photo_tvShow">
+        <item>@drawable/initalkshow</item>
+        <item>@drawable/tonightshow</item>
+        <item>@drawable/lapanenam</item>
+        <item>@drawable/top</item>
+        <item>@drawable/bolangjpg</item>
+        <item>@drawable/unyil</item>
+        <item>@drawable/itemputih</item>
+        <item>@drawable/onthespot</item>
+        <item>@drawable/matanajwa</item>
+        <item>@drawable/spongbob</item>
+    </array>
+
+    <array name="data_photo_broadcast">
+        <item>@drawable/net</item>
+        <item>@drawable/net</item>
+        <item>@drawable/net</item>
+        <item>@drawable/rcti</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/gtv</item>
+    </array>
+
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+
+</resources>

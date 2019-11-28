@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailMovieAct"
+    android:background="@color/bgPrimary">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:background="@drawable/bg_gradient_blue_secondary"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+        </View>
+
+
+        <com.github.florent37.shapeofview.shapes.ArcView
+            android:layout_width="match_parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_height="300dp"
+            android:elevation="4dp"
+            android:id="@+id/imgsahpe"
+            app:shape_arc_height="20dp"
+            app:shape_arc_position="bottom"
+            >
+
+            <ImageView
+                android:id="@+id/img_movie"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"/>
+
+        </com.github.florent37.shapeofview.shapes.ArcView>
+
+
+        <TextView
+            android:id="@+id/txt_titleMovie"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/blackPrimary"
+            android:fontFamily="@font/quicksandbold"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imgsahpe" />
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tr_tv_release_movie"
+            app:layout_constraintTop_toBottomOf="@id/txt_titleMovie"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:fontFamily="@font/cairobold"
+            android:text="@string/daterelase"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:id="@+id/tv_release_movie"
+            android:fontFamily="@font/cairoregular"
+            android:text="@string/daterelease_movie"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/txt_titleMovie"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toEndOf="@id/tr_tv_release_movie"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tr_tv_runtime_movie"
+            android:fontFamily="@font/cairobold"
+            android:text="@string/runtime"
+            app:layout_constraintTop_toBottomOf="@id/tr_tv_release_movie"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:id="@+id/tv_runtime_movie"
+            android:text="@string/runtime"
+            android:fontFamily="@font/cairoregular"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/tr_tv_release_movie"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toEndOf="@id/tr_tv_runtime_movie"
+            android:layout_marginStart="20dp"/>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:id="@+id/tr_tv_genre_movie"
+            android:layout_marginRight="16dp"
+            android:fontFamily="@font/cairobold"
+            android:text="@string/genre_movie"
+            app:layout_constraintTop_toBottomOf="@id/tr_tv_runtime_movie"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:layout_weight="1"
+            android:id="@+id/tv_genre_movie"
+            android:fontFamily="@font/cairoregular"
+            android:text="@string/genre_movie"
+            android:textColor="@android:color/black"
+            app:layout_constraintTop_toBottomOf="@id/tr_tv_runtime_movie"
+            android:layout_marginTop="25dp"
+            app:layout_constraintStart_toEndOf="@id/tr_tv_genre_movie"
+            android:layout_marginStart="20dp"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginBottom="16dp"
+            android:background="#DADADA"
+            android:id="@+id/garispembatas"
+            app:layout_constraintTop_toBottomOf="@id/tr_tv_genre_movie"
+            android:layout_marginTop="30dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/activity_vertical_margin">
+        </View>
+
+        <TextView
+            android:id="@+id/tv_synopsis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="30dp"
+            android:fontFamily="@font/mregular"
+            android:text="@string/sinopsis"
+            android:layout_gravity="center"
+            android:textColor="@color/blackPrimary"
+            android:textSize="20sp"
+            app:layout_constraintTop_toBottomOf="@id/garispembatas"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:id="@+id/tv_synopsis_movie"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/mlight"
+            android:textColor="@color/greyPrimary"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/tv_synopsis"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:paddingLeft="@dimen/activity_vertical_margin"
+            android:paddingRight="@dimen/activity_vertical_margin"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_synopsis_movie">
+        </View>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

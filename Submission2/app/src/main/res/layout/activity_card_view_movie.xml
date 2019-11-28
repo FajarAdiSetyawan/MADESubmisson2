@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cardview_movie"
+    android:layout_gravity="center"
+    android:layout_marginLeft="8dp"
+    android:layout_marginTop="4dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="4dp"
+    card_view:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="8dp"
+        android:background="@drawable/bg_layout_white">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="200dp"
+            android:id="@+id/img_movie"
+            android:layout_marginBottom="4dp"
+            android:scaleType="centerCrop"
+            tools:src="@color/colorAccent"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_title_movie"
+            android:fontFamily="@font/firasansregular"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:layout_toEndOf="@+id/img_movie"
+            android:layout_toRightOf="@+id/img_movie"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/blackPrimary"
+            tools:text="@string/title_movie"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#EDEDED"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginBottom="8dp"
+            android:layout_below="@+id/tv_title_movie"
+            android:id="@+id/viewPembatas"
+            android:layout_toEndOf="@+id/img_movie"
+            android:layout_toRightOf="@+id/img_movie">
+
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_release_movie"
+            android:textSize="13sp"
+            android:layout_below="@+id/viewPembatas"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_movie"
+            android:layout_toRightOf="@id/img_movie"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/daterelease_movie"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_runtime_movie"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_release_movie"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_movie"
+            android:layout_toRightOf="@id/img_movie"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/runtime"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv_genre_movie"
+            android:textSize="13sp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tv_runtime_movie"
+            android:fontFamily="@font/cairobold"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_toEndOf="@id/img_movie"
+            android:layout_toRightOf="@id/img_movie"
+            android:ellipsize="end"
+            android:maxLines="4"
+            tools:text="@string/genre_movie"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

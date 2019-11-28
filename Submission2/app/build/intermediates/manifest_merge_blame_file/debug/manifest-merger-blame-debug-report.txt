@@ -1,0 +1,71 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fajaradisetyawan.submission2"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:6:5-32:19
+12        android:allowBackup="true"
+12-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:7:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Fajar Adi Setyawan\.gradle\caches\transforms-2\files-2.1\7ddf3b3453ff2ae36284abc49da050c2\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:8:9-43
+16        android:label="@string/app_name"
+16-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:9:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:10:9-54
+18        android:supportsRtl="true"
+18-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:11:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:12:9-40
+21        <activity
+21-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:14:9-16:59
+22            android:name="com.fajaradisetyawan.submission2.SettingAct"
+22-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:15:13-39
+23            android:theme="@style/AppTheme.NoActionBar" />
+23-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:16:13-56
+24        <activity
+24-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:17:9-19:59
+25            android:name="com.fajaradisetyawan.submission2.DetailTvShowAct"
+25-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:18:13-44
+26            android:theme="@style/AppTheme.NoActionBar" />
+26-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:19:13-56
+27        <activity
+27-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:20:9-22:59
+28            android:name="com.fajaradisetyawan.submission2.DetailMovieAct"
+28-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:21:13-43
+29            android:theme="@style/AppTheme.NoActionBar" />
+29-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:22:13-56
+30        <activity android:name="com.fajaradisetyawan.submission2.CardViewTvShowAct" />
+30-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:23:9-55
+30-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:23:19-52
+31        <activity android:name="com.fajaradisetyawan.submission2.CardViewMovieAct" />
+31-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:24:9-54
+31-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:24:19-51
+32        <activity android:name="com.fajaradisetyawan.submission2.MainActivity" >
+32-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:25:9-31:20
+32-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:25:19-47
+33            <intent-filter>
+33-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:27:17-69
+34-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:29:17-77
+36-->D:\Source Code\Dicoding\MADE\Submission2\app\src\main\AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38        </activity>
+39    </application>
+40
+41</manifest>

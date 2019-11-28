@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Entertainment</string>
+    <string name="tab_text_movie">Movie</string>
+    <string name="tab_text_tv_show">TV Show</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="appversion">App Version 0.1</string>
+    <string name="setting">Settings</string>
+    <string name="sinopsis">Synopsis</string>
+    <string name="showtimes">Showtime</string>
+    <string name="broadcaster_network">Broadcaster</string>
+    <string name="runtime">Runtime</string>
+    <string name="daterelase">Date Relase</string>
+    <string name="title_movie">Title Movie</string>
+    <string name="genre_movie">Genre</string>
+    <string name="daterelease_movie">Date Release</string>
+    <string name="title_tvShow">Title TV SHOW</string>
+    <string name="genre_tvShow">Genre</string>
+
+    <!--  Data Movie  -->
+
+    <string-array name="data_title_movie">
+        <item>A Star Is Born</item>
+        <item>Aquaman</item>
+        <item>Avengers: Infinity War</item>
+        <item>Bird Box</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+        <item>Deadpool 2</item>
+        <item>Spider-Man: Far from Home</item>
+        <item>Frozen II</item>
+    </string-array>
+
+    <string-array name="data_synopsis_movie">
+        <item>"Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as Ally's career takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons."</item>
+        <item>"Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm's half-human, half-Atlantean brother and true heir to the throne."</item>
+        <item>"As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain."</item>
+        <item>"Five years after an ominous unseen presence drives most of society to suicide, a survivor and her two children make a desperate bid to reach safety."</item>
+        <item>"Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock 'n' roll band Queen in 1970. Hit songs become instant classics. When Mercury's increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess."</item>
+        <item>"On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug."</item>
+        <item>"Between personal obligations and training for his next big fight against an opponent with ties to his family's past, Adonis Creed is up against the challenge of his life."</item>
+        <item>"Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life."</item>
+        <item>"Peter Parker and his friends go on a summer trip to Europe. However, they will hardly be able to rest - Peter will have to agree to help Nick Fury uncover the mystery of creatures that cause natural disasters and destruction throughout the continent."</item>
+        <item>"Elsa, Anna, Kristoff and Olaf are going far in the forest to know the truth about an ancient mystery of their kingdom."</item>
+    </string-array>
+
+    <string-array name="date_release_movie">
+        <item>3 October 2018</item>
+        <item>21 Desember 2018</item>
+        <item>23 April 2018</item>
+        <item>12 November 2018</item>
+        <item>30 October 2018</item>
+        <item>21 December 2018</item>
+        <item>14 November 2018</item>
+        <item>10 May 2018</item>
+        <item>26 June 2019</item>
+        <item>7 November 2019</item>
+    </string-array>
+
+    <string-array name="data_runtime_movie">
+        <item>2h 16m</item>
+        <item>2h 24m</item>
+        <item>2h 29m</item>
+        <item>2h 4m</item>
+        <item>2h 15m</item>
+        <item>1h 54m</item>
+        <item>2h 10m</item>
+        <item>2h 1m</item>
+        <item>2h 9m</item>
+        <item>1h 44m</item>
+    </string-array>
+
+    <string-array name="data_genre_movie">
+        <item>Drama, Music, Romance</item>
+        <item>Action, Adventure, Fantasy</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Thriller, Drama</item>
+        <item>Drama, Music</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Drama</item>
+        <item>Action, Adventure, Comedy</item>
+        <item>Science Fiction, Action, Adventure</item>
+        <item>Adventure, Animation, Comedy, Music, Family, Fantasy</item>
+    </string-array>
+
+    <array name="data_photo_movie">
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+        <item>@drawable/deadpool2</item>
+        <item>@drawable/spiderman</item>
+        <item>@drawable/frozenii</item>
+    </array>
+
+    <!--  Data TV SHOW  -->
+
+    <string-array name="data_title_tvShow">
+        <item>Ini Talk Show</item>
+        <item>Tonight Show</item>
+        <item>86</item>
+        <item>Tukang Ojek Pengkolan</item>
+        <item>Bocah Petualang</item>
+        <item>Laptop Si Unyil</item>
+        <item>Hitam Putih</item>
+        <item>On The Spot</item>
+        <item>Mata Najwa</item>
+        <item>Spongebob Squarepants The Movie</item>
+    </string-array>
+
+    <string-array name="data_synopsis_tvShow">
+        <item>"This Talk Show is a talk show program that is packed with a relaxed atmosphere, discussing hot issues that exist in the community in a simple way. In this program will also show the atmosphere of the house and the characters in the house. With the role of Sule as Host, Andre Taulany as Consultant-Host, supported by Yurike as Mama Sule, Sas Widjanarko as Om Sule, Maya Septha as Household Assistant, and Haji Bolot as Pak RT."</item>
+        <item>"Evening talk shows that will provide information and entertainment, with Vincent, Desta and Hesty Purwadinata and guest stars from various circles. Accompanying the night's rest, the Tonight Show is full of surprises that it's a pity to miss."</item>
+        <item>"86 is a fresh and adrenaline-watching spectacle that airs on NET. TV every day at 10.00 PM WIB. Not only can we take part in the Indonesian police action in the raids, but we are also invited to witness the real events taking place on the ground and see a little other side of the police's private life as ordinary people and their closeness to their families. 86 shows the work of the Indonesian police ranging from light activities, such as disciplining traffic users, to severe police cases."</item>
+        <item>"In a village in the Rawa Bebek area behind Jakarta's office buildings, there lived a married couple named Rojak (Ojak) and Tati. To make a living, Ojak, a native of Jakarta, works as a motorcycle taxi driver who is based at the end of the entrance road to the village with two colleagues, Purnomo (Pur) from Semarang, and Sutisna (Tisna), originally from Sukabumi. \ N Actually, Ojak's marriage and Tati was not blessed by Maesaroh, her mother Tati. Because before, the late babati Tati had previously set her up with a more established prospective husband, far compared to Ojak who only worked as a motorcycle taxi driver. But because of Tati's love and affection for Ojak, Tati chose to marry Ojak, even though they risked their lives barely. Even though Ojak has a D3 diploma, up to now he has not been able to get a proper job. This is what has become a feud like a dog and cat between his mother and son-in-law, Ojak. Mother, although not frontal, tried to continually pressure Ojak to provide for his wife properly, could buy his own house and not keep contracting houses like now. Ojak, who initially only thickened his ears when his mother scolded him, gradually considered her as a pebble in his family's happiness, even though Ojak never dared to express his frustration directly in front of his mother. This situation made Tati's position go awry between obeying the word Mother and respecting the words of her husband."</item>
+        <item>"Si Bolang highlighted the daily activities of children, ranging from playing, helping parents, to making traditional crafts from various regions throughout the archipelago. Each episode of Bolang shows the unique culture of various regions in Indonesia, making this program have a very high localization element. The information presented from the perspective of the children's world is a unique value for the Si Bolang program."</item>
+        <item>"Featuring Unyil &amp; friends as a mascot, this program explores the process of producing a variety of objects both commonly encountered daily and unique objects not only from within the country but also from abroad. The coverage that came from both large industrial factories and home industries was presented in detail and focused on the process, making this program very informative because viewers could witness firsthand the process of making a product.
+
+Unyil &amp; friends who are the mascot of this program present in funny gimmicks, adding value to the Unyil Laptop that makes it not only informative, but also very entertaining. Si Unyil's laptop not only has a children's audience base, but also a large area to the adult-grand area. Aired since 2007, Si Unyil's Laptop is one of TRANS7's flagship programs."</item>
+        <item>"Talkshow program that has become the TRANS7 talkshow flagship / icon for the past few years. A strong brand image with a positive image becomes the main selling value of Black and White. Not only presents information from the Guest Star / Interviewee, Black and White is one of the few talk shows currently that has a lot of positive values.
+
+The flexible format of the program makes Black and White able to accommodate broad themes. Educating, informative, and inspirational themes become the core competency of Black and White. In addition, Showbiz, Current, Viral and Unique themes also become another Black and White strength. The flexibility of this format that no other talk show has had so far.
+
+Deddy Corbuzier's character as a host has also been attached to the Black and White brand. A smart, logical and updated figure on the latest information / issues is another selling point. In terms of viewing, the range of viewers that can be reached by Black and White is fairly wide. Young and adult audiences from the male and female categories contribute equally well to the program."</item>
+        <item>"An information program known as a pioneering magazine that presents a compilation of information on a variety of issues and topics ranging from phenomena, current issues, mysteries, wonders of the world, to science. Now not only presents a compilation of ranks of various information with a particular theme but also comes with other forms such as coverage and direct search. Also present with a contemporary look that makes the information presented not only increase knowledge but also engaging for viewers at home. In the genre present as the only information program in the midst of competition filled with drama programs, making On The Spot an iconic program especially for viewers who are hungry for information"</item>
+        <item>"The Talkshow program is guided by a character who has a smart, straightforward character and who has a strong charisma in the eyes of the viewers. The questioning style of Najwa Shihab, which is affirmed, stabbing and is often a bit provocative, is combined with specific treatments to accommodate the guest star / resource person character who is able to present interesting events as program views increase.
+
+Mata Najwa also has a strong brand image as a talkshow program that is a reference when there are national issues / phenomena besides ILC. Rest After the last 3 months, the reappearance of Najwa Shihab on the screen was returned to be waited on by loyal viewers.
+
+Mata Najwa's ability to present speakers who are A1 figures from broad themes is one of the main attractions of this program. Mata Najwa's presence at TRANS7 is expected to be able to achieve visitor referrals and references ahead of the 2018 Simultaneous Election to 2019 Presidential Election, also on national issues that occur throughout the year.
+
+Airing once a week in the super primetime slot, the Mata Najwa genre program chose to attract male viewers with a wide age range (young age). In addition, the theme of the discussion raised can also be widened to accommodate female viewers"</item>
+        <item>"Deep at the bottom of the Pacific Ocean in the middle of Bikini Bottom, there lived a yellow sea sponge named Spongebob Squarepants. Spongebob lives in a tiny pineapple-shaped house with his pet, Gary. Everyday, Spongebob works as a waiter in a fast food restaurant Krusty Krab with his neighbor Squidward (an octopus who is always pouting). He also has a true star-shaped best friend named Patrick. It seems nothing is strange with his life. But make no mistake! Where there is Spongebob there is excitement. Do you want to know how excited it is? Let's watch Spongebob Squarepants only on GTV!"</item>
+    </string-array>
+
+    <string-array name="data_showtimes">
+        <item>Monday to Friday at 7:00 PM WIB</item>
+        <item>Monday to Friday at 9:00 PM WIB</item>
+        <item>Every Day at 10.00 PM WIB</item>
+        <item>Every Day at 7.15 PM WIB</item>
+        <item>Monday to Friday at 12:30 PM WIB</item>
+        <item>Monday to Friday at 12:00 PM WIB</item>
+        <item>Monday to Friday at 6:00 PM WIB</item>
+        <item>Monday - Friday at 7:00 PM WIB. &amp; Saturday - Sunday at 7.30 PM WIB.</item>
+        <item>Wednesday at 8:00 PM WIB.</item>
+        <item>Every day at 11:00 AM WIB.</item>
+    </string-array>
+
+    <string-array name="data_broadcaster_network_tvShow">
+        <item>Net.</item>
+        <item>Net.</item>
+        <item>Net.</item>
+        <item>RCTI</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Trans 7</item>
+        <item>Global TV</item>
+    </string-array>
+
+    <string-array name="data_genre_tvShow">
+        <item>Comedy, Talk Show</item>
+        <item>Talk Show</item>
+        <item>Reality Show</item>
+        <item>Comedy</item>
+        <item>Children</item>
+        <item>Children</item>
+        <item>Talk Show</item>
+        <item>Documentary</item>
+        <item>Current Events</item>
+        <item>Children</item>
+    </string-array>
+
+    <array name="data_photo_tvShow">
+        <item>@drawable/initalkshow</item>
+        <item>@drawable/tonightshow</item>
+        <item>@drawable/lapanenam</item>
+        <item>@drawable/top</item>
+        <item>@drawable/bolangjpg</item>
+        <item>@drawable/unyil</item>
+        <item>@drawable/itemputih</item>
+        <item>@drawable/onthespot</item>
+        <item>@drawable/matanajwa</item>
+        <item>@drawable/spongbob</item>
+    </array>
+
+    <array name="data_photo_broadcast">
+        <item>@drawable/net</item>
+        <item>@drawable/net</item>
+        <item>@drawable/net</item>
+        <item>@drawable/rcti</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/logotrans7</item>
+        <item>@drawable/gtv</item>
+    </array>
+
+    <!-- Preference Titles -->
+
+    <!-- Messages Preferences -->
+
+    <!-- Sync Preferences -->
+</resources>
